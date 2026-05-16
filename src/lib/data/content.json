@@ -1,0 +1,153 @@
+{
+  "id": "summit-street-technologies",
+  "title": "Summit Street Technologies",
+  "sections": [
+    {
+      "id": "main",
+      "label": "Home",
+      "title": "Your Technology Objectives:",
+      "description": "Full-service software development, technology consulting, and IT services — rooted in Napa and Sonoma, serving the Bay Area and select clients nationwide.",
+      "properties": {
+        "outcomes": ["Envisioned.", "Realized.", "Delivered."]
+      }
+    },
+    {
+      "id": "software-development-services",
+      "label": "Services",
+      "title": "Software Development",
+      "description": "Partnering with you to deliver high-quality software solutions and enhancements that solve business challenges of all sizes — with the depth and continuity of a trusted technical partner.",
+      "sections": [
+        {
+          "id": "web-and-mobile-apps",
+          "title": "Web & Mobile Apps",
+          "description": "Extend your reach, modernize how customers interact with your business, and deliver new capabilities when and where your users need them."
+        },
+        {
+          "id": "cloud-native-solutions",
+          "title": "Cloud-Native Solutions",
+          "description": "Scale confidently with secure, cloud-native applications and services architected to grow with your business, adapt to changing demands, and keep your operations running without interruption."
+        },
+        {
+          "id": "systems-integration",
+          "title": "Systems Integration",
+          "description": "Connect your applications, services, and data sources to streamline operations, eliminate redundant work, and make your existing tools work harder for your business."
+        },
+        {
+          "id": "ai-enablement",
+          "title": "AI Enablement",
+          "description": "Extend what your software can do by putting AI in service of your business — automating routine tasks, surfacing timely insights, and freeing your team to focus on the work that matters."
+        }
+      ]
+    },
+    {
+      "id": "technology-consulting",
+      "title": "Technology Consulting",
+      "description": "Navigate complex technology decisions with experienced guidance — defining the strategies, selecting the right solutions, and providing the leadership your business needs to move forward with confidence.",
+      "sections": [
+        {
+          "id": "technology-strategy",
+          "title": "Technology Strategy",
+          "description": "Chart a technology course aligned with your long-term business goals — defining vision, roadmap, and architecture decisions with the depth of engagement your organization requires, from strategic partner to fractional CTO."
+        },
+        {
+          "id": "technology-solutions",
+          "title": "Technology Solutions",
+          "description": "Identify the right technology for your business, evaluate existing products, and craft a cost-effective solution tailored to your needs — guiding you through selection, installation, and adoption."
+        }
+      ]
+    },
+    {
+      "id": "it-services",
+      "title": "IT Services",
+      "description": "Keep your business running smoothly with dependable, hands-on technical expertise — handling the day-to-day technology needs that keep your team productive and your operations uninterrupted.",
+      "sections": [
+        {
+          "id": "network-and-infrastructure",
+          "title": "Network & Infrastructure",
+          "description": "Design, install, and configure the network equipment and connectivity your business depends on — ensuring reliable, secure access for your team and customers."
+        },
+        {
+          "id": "system-administration",
+          "title": "System Administration",
+          "description": "Manage your business systems, user accounts, email platforms, and software licenses — keeping your technology current, organized, and working as expected."
+        },
+        {
+          "id": "hardware-and-software-setup",
+          "title": "Hardware & Software Setup",
+          "description": "Procure, install, and configure the computers, devices, and software your team needs — handling the technical details so you don't have to."
+        },
+        {
+          "id": "ongoing-technical-support",
+          "title": "Ongoing Technical Support",
+          "description": "Serve as your dedicated technology resource for day-to-day issues, troubleshooting, and maintenance — providing reliable IT support without the overhead of a full-time hire."
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "title": "About",
+      "description": "Your partner in technology — from strategy to implementation.",
+      "sections": [
+        {
+          "id": "our-mission",
+          "title": "Our Mission",
+          "description": "Summit Street Technologies exists to give clients of every size access to principled, experienced technology guidance. Technology is most valuable when it serves a clear business purpose — and that belief drives every engagement. Every client receives the depth of a specialist and the breadth of a generalist, applied to the decisions, strategies, and software that move their business forward. Rooted in Napa and Sonoma and serving the Bay Area and select clients nationwide, Summit Street Technologies is built on partnership, precision, and a genuine commitment to your success."
+        },
+        {
+          "id": "profile",
+          "title": "Founder and Principal",
+          "properties": {
+            "profile": {
+              "name": "David Padgett",
+              "imageUrl": "/assets/dpadgett.jpeg",
+              "description": "David is a full-stack engineering leader with 30 years of experience building software and leading the teams that deliver it, across startups, big tech, and enterprise organizations. He has founded three technology companies, contributed to systems at some of the industry's most recognized names, and spent a decade developing the people and practices that turn good engineers into great teams. His background spans every layer of the stack and every stage of the software lifecycle, from defining technical vision as an enterprise architect to writing and shipping production code as a principal engineer, bringing both the strategic perspective of a leader and the technical credibility of a practitioner to every engagement.",
+              "links": [
+                {
+                  "label": "LinkedIn",
+                  "href": "https://linkedin.com/in/davidpadgett"
+                },
+                {
+                  "label": "Email"
+                },
+                {
+                  "label": "Calendar",
+                  "href": "https://calendar.app.google/eYyvDWP6BSmZ2uaq9"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "title": "Contact",
+      "description": "Every engagement starts with a conversation. Whether you represent an established organization or are navigating a technology challenge on your own — take the first step.",
+      "sections": [
+        {
+          "id": "contact-info",
+          "title": "Contact Info",
+          "properties": {
+            "qrCodeImage": "/assets/contact-info.png",
+            "qrCodeLabel": "QR code with contact information",
+            "link": {
+              "label": "Download"
+            }
+          }
+        },
+        {
+          "id": "send-email",
+          "title": "Send Email",
+          "properties": {
+            "fields": ["Name", "Location", "Phone Number"],
+            "link": {
+              "label": "Send"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
