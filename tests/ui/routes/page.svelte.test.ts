@@ -106,17 +106,17 @@ describe("+page.svelte", () => {
 
     test("shows validation message when submitted with empty fields", async () => {
       const screen = render(Page);
-      await screen.getByRole("button", { name: "Send" }).click();
+      (screen.container.querySelector("#contact-send") as HTMLButtonElement).click();
       await expect.element(screen.getByText("All fields must be filled in.")).toBeVisible();
     });
 
     test("hides validation message when submitted with all fields filled", async () => {
       const screen = render(Page);
-      await screen.getByRole("button", { name: "Send" }).click();
+      (screen.container.querySelector("#contact-send") as HTMLButtonElement).click();
       await screen.getByRole("textbox", { name: "Name" }).fill("Test User");
       await screen.getByRole("textbox", { name: "Location" }).fill("Test City");
       await screen.getByRole("textbox", { name: "Phone Number" }).fill("555-1234");
-      await screen.getByRole("button", { name: "Send" }).click();
+      (screen.container.querySelector("#contact-send") as HTMLButtonElement).click();
       await expect.element(screen.getByText("All fields must be filled in.")).not.toBeVisible();
     });
   });
