@@ -55,8 +55,8 @@ export const updateEnvFile = () => {
 
   const key = keys.VITE_KEY_1 + keys.VITE_KEY_2 + keys.VITE_KEY_3;
   const contactConfig = {
-    VITE_PRINCIPAL_EMAIL_ADDRESS: encode(viteConfig.PRINCIPAL_EMAIL_ADDRESS, key),
-    VITE_INFO_EMAIL_ADDRESS: encode(viteConfig.INFO_EMAIL_ADDRESS, key),
+    VITE_PRINCIPAL_EMAIL_ADDRESS: encode(viteConfig.PRINCIPAL_EMAIL_ADDRESS ?? "", key),
+    VITE_INFO_EMAIL_ADDRESS: encode(viteConfig.INFO_EMAIL_ADDRESS ?? "", key),
     VITE_INFO_VCARD: encode(viteConfig.INFO_VCARD, key),
   };
 
